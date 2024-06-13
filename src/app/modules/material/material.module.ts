@@ -25,7 +25,8 @@ import {MatIconModule} from '@angular/material/icon';
     MatSliderModule,
     MatButtonModule,
     MatDividerModule,
-    MatIconModule
+    MatIconModule,
+
 
   ]
 })

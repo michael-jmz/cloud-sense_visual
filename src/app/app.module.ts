@@ -6,15 +6,20 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 import { MaterialModule } from './modules/material/material.module';
-
+import { GraficasComponent } from './componentes/graficas/graficas.component';
+import { NgApexchartsModule } from 'ng-apexcharts';
 @NgModule({
   declarations: [
     AppComponent,
+    GraficasComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,
+    NgApexchartsModule
+
+
   ],
   providers: [
     provideClientHydration(),
@@ -22,4 +27,6 @@ import { MaterialModule } from './modules/material/material.module';
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+
+}
