@@ -1,0 +1,34 @@
+.profile-user{
+  width: 100px;
+  height: 100px;
+  object-fit: cover; /* This will ensure the image covers the container without distorting */
+  border-radius: 50%;
+  border: 2px solid #ccc;
+  margin-bottom: 10px;
+}
+.sidenav-header{
+  margin-top: 10px;
+  text-align: center;
+}
+.header-text{
+  >h2{
+
+    margin:0;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  >p{
+    margin: 0;
+    font-size: 0.8rem;
+
+  }
+  .hide-header-text{
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: all 0.3s ease; /* Añade una transición para hacer el cambio suave */
+
+  }
+
+}
+

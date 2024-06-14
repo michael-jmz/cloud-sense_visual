@@ -6,20 +6,17 @@ import { AppComponent } from './app.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 
 import { MaterialModule } from './modules/material/material.module';
-import { GraficasComponent } from './componentes/graficas/graficas.component';
-import { NgApexchartsModule } from 'ng-apexcharts';
+
+import { SharedModule } from './shared/shared.module';
 @NgModule({
   declarations: [
     AppComponent,
-    GraficasComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MaterialModule,
-    NgApexchartsModule
-
-
+    SharedModule,
   ],
   providers: [
     provideClientHydration(),

@@ -1,0 +1,14 @@
+/* #sidebar{
+
+  height: 100vh;  /* vh ocupe el 100 la pagina verticalmente
+} */
+.content {
+  padding:24px;
+}
+.navLateral{
+  width: sidenavWidth();
+}
+mat-sidenav-container{
+  height: calc(100vh - 64px);
+
+}

@@ -7,6 +7,10 @@ import {MatSliderModule} from '@angular/material/slider';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
 import {MatIconModule} from '@angular/material/icon';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatSidenavModule} from '@angular/material/sidenav';
+import {MatListModule} from '@angular/material/list';
+
 
 
 
@@ -18,7 +22,11 @@ import {MatIconModule} from '@angular/material/icon';
     MatSliderModule,
     MatButtonModule,
     MatDividerModule,
-    MatIconModule
+    MatIconModule,
+    MatToolbarModule,
+    MatButtonModule,
+    MatSidenavModule,
+    MatListModule
   ],
   exports: [
     MatCardModule,
@@ -26,6 +34,9 @@ import {MatIconModule} from '@angular/material/icon';
     MatButtonModule,
     MatDividerModule,
     MatIconModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule
 
 
   ]
